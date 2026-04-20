@@ -1,0 +1,150 @@
+/* Desert Trails AZ - External Stylesheet */
+
+:root {
+  --text: #1a1a0a;
+  --background: #f5f0e4;
+  --primary: #8B6914;
+  --secondary: #4a7c59;
+  --accent: #c45e2a;
+}
+
+/* BODY */
+body {
+  background-color: var(--background);
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+header {
+  background-color: var(--primary);
+  color: #ffffff;
+  padding: 20px 30px;
+  text-indent: 0.5em;
+}
+
+header h1 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2em;
+}
+
+/* TAGLINE */
+.tagline {
+  font-style: italic;
+  font-size: 0.95em;
+  color: #f5e6c8;
+  margin: 4px 0 0 0;
+}
+
+/* NAV */
+nav {
+  background-color: var(--accent);
+  padding: 10px 30px;
+  font-weight: bold;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 24px;
+  font-size: 1em;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* MAIN */
+main {
+  padding: 24px 40px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* HEADINGS */
+h2 {
+  color: var(--primary);
+  font-family: Georgia, "Times New Roman", serif;
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 4px;
+}
+
+h3 {
+  color: var(--accent);
+  font-family: Georgia, "Times New Roman", serif;
+  margin-bottom: 6px;
+}
+
+/* PARAGRAPHS */
+p {
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+
+/* UNORDERED LIST */
+ul {
+  line-height: 1.9;
+  margin-bottom: 16px;
+  padding-left: 24px;
+}
+
+/* HIGHLIGHT SPAN CLASS */
+.highlight {
+  color: var(--secondary);
+  font-weight: bold;
+}
+
+/* TRAIL CARDS */
+.trail-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 16px 0 24px 0;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #c9b88a;
+  border-radius: 6px;
+  padding: 16px;
+  flex: 1;
+  min-width: 200px;
+}
+
+/* CONTACT INFO DIV */
+#contact-info {
+  background-color: #ede4cc;
+  border-left: 4px solid var(--primary);
+  padding: 14px 20px;
+  margin-top: 24px;
+  font-size: 0.95em;
+  line-height: 1.8;
+}
+
+/* LINKS */
+a {
+  color: var(--accent);
+}
+
+a:hover {
+  color: var(--primary);
+}
+
+/* FOOTER */
+footer {
+  background-color: var(--primary);
+  color: #f5e6c8;
+  text-align: center;
+  padding: 14px;
+  font-size: 0.85em;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", serif;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #f5e6c8;
+}
