@@ -97,6 +97,120 @@ ul {
   font-weight: bold;
 }
 
+/* VIDEO CREDIT */
+.video-credit {
+  font-size: 0.85em;
+  color: #777;
+  margin-top: 4px;
+  margin-bottom: 24px;
+}
+
+/* IFRAME / YOUTUBE VIDEO */
+iframe {
+  display: block;
+  max-width: 100%;
+  margin: 16px 0 24px 0;
+  border: none;
+}
+
+/* VIDEO HERO */
+.video-hero {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.video-hero video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.video-title {
+  color: #ffffff;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2em;
+  margin: 0 0 10px 0;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+}
+
+.video-subtitle {
+  color: #f5e6c8;
+  font-size: 1.1em;
+  margin: 0;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+}
+
+/* YOUTUBE VIDEO EMBED */
+.video-container {
+  margin: 16px 0;
+  max-width: 560px;
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 315px;
+  border: none;
+}
+
+.video-credit {
+  font-size: 0.85em;
+  color: #777;
+  font-style: italic;
+  margin-top: 6px;
+}
+
+/* TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0 24px 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+  background-color: var(--primary);
+  color: #ffffff;
+  padding: 10px 14px;
+  text-align: left;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+td {
+  padding: 10px 14px;
+  border-bottom: 1px solid #c9b88a;
+}
+
+tr:nth-of-type(odd) {
+  background-color: #ffffff;
+}
+
+tr:nth-of-type(even) {
+  background-color: #f0e8d5;
+}
+
 /* TRAIL CARDS */
 .trail-cards {
   display: flex;

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Essential hiking tips and gear recommendations for Arizona trails. Stay safe and prepared on your next desert hike with Desert Trails AZ.">
+  <meta name="author" content="Pranav Senthil">
+  <title>Desert Trails AZ :: Tips &amp; Gear</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Desert Trails AZ</h1>
+    <p class="tagline">Your guide to the best hiking trails in Arizona</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="trails.html">Trails</a>
+    <a href="tips.html">Tips &amp; Gear</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- VIDEO HERO SECTION -->
+  <div class="video-hero">
+    <video id="tipsvideo" autoplay muted playsinline>
+      <source src="343-136016278_medium.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="video-overlay">
+      <h2 class="video-title">Tips &amp; Gear for Arizona Hiking</h2>
+      <p class="video-subtitle">Everything you need to know before hitting the trail</p>
+    </div>
+  </div>
+
+  <script>
+    var vid = document.getElementById("tipsvideo");
+    vid.addEventListener("loadedmetadata", function() {
+      vid.currentTime = 17;
+    });
+    vid.addEventListener("timeupdate", function() {
+      if (vid.currentTime >= vid.duration - 0.2) {
+        vid.currentTime = 17;
+      }
+    });
+  </script>
+
+  <main>
+
+    <p>Hiking in Arizona is an incredible experience, but the desert environment
+    requires special preparation. Whether you are heading out for a quick morning
+    walk or a full-day adventure, following these tips from
+    <span class="highlight">Desert Trails AZ</span> will help keep you safe,
+    comfortable, and ready to enjoy every step of the trail.</p>
+
+    <h2>Essential Safety Tips</h2>
+
+    <div class="trail-cards">
+
+      <div class="card">
+        <h3>Hydration</h3>
+        <p>Water is the most important thing you can bring on any Arizona hike.
+        Drink at least one liter of water per hour in hot weather. Start hydrating
+        before you even reach the trailhead. Never rely on streams or natural water
+        sources in the desert as they are often dry or contaminated.</p>
+      </div>
+
+      <div class="card">
+        <h3>Timing Your Hike</h3>
+        <p>Always start early — ideally before 7am during summer months. Arizona
+        temperatures can exceed 110°F by midday from May through September. If you
+        are hiking in summer, plan to be back at your car by 10am. Fall and spring
+        offer the most comfortable conditions for longer hikes.</p>
+      </div>
+
+      <div class="card">
+        <h3>Sun Protection</h3>
+        <p>Apply sunscreen with at least SPF 30 before heading out and reapply
+        every two hours. Wear a wide-brimmed hat and UV-protective sunglasses.
+        Light-colored, long-sleeved clothing can actually keep you cooler than
+        shorts and a t-shirt by reflecting heat and protecting your skin.</p>
+      </div>
+
+    </div>
+
+    <h2>Recommended Gear</h2>
+
+    <ul>
+      <li>Insulated water bottles or a hydration pack (minimum 2 liters)</li>
+      <li>Sturdy, closed-toe hiking shoes or trail runners</li>
+      <li>Wide-brimmed sun hat and UV-rated sunglasses</li>
+      <li>Sunscreen SPF 30 or higher</li>
+      <li>Trail snacks such as nuts, granola bars, or dried fruit</li>
+      <li>A fully charged phone with a downloaded offline map</li>
+      <li>A small first aid kit with blister treatment</li>
+      <li>A flashlight or headlamp in case your hike runs long</li>
+    </ul>
+
+    <h2>Watch Before You Hike</h2>
+
+    <p>Check out this helpful Arizona hiking tips video before heading out
+    on your next trail adventure.</p>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/avffNWh3L1o?si=LGiPjLTwb2wq6-x6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <p class="video-credit"><em>Video courtesy of <a href="https://youtu.be/avffNWh3L1o" target="_blank">YouTube</a>. All credit goes to the original creator.</em></p>
+
+    <h2>Know Before You Go</h2>
+
+    <p>Always tell someone where you are hiking and when you expect to return.
+    Check the weather forecast before heading out and be aware of monsoon season
+    from July through September, when sudden storms can create dangerous flash
+    flooding in canyon areas. For the latest trail conditions and safety alerts,
+    visit the
+    <a href="https://azstateparks.com" target="_blank">Arizona State Parks website</a>.</p>
+
+    <h2>Trail Etiquette</h2>
+
+    <p>Good trail etiquette makes hiking better for everyone. Always yield to
+    uphill hikers, keep your dog on a leash, pack out all of your trash, and
+    stay on marked trails to protect the surrounding desert ecosystem. Leave
+    No Trace principles apply to all Arizona trails — take only photos and
+    leave only footprints.</p>
+
+    <div id="contact-info">
+      <span class="highlight">Desert Trails AZ</span><br>
+      Tempe, Arizona<br>
+      <br>
+      <a href="mailto:psenthi3@asu.edu">psenthi3@asu.edu</a>
+    </div>
+
+  </main>
+
+  <footer>
+    <small><em>Copyright &copy; 2026 Desert Trails AZ &nbsp;|&nbsp;
+    <a href="mailto:psenthi3@asu.edu">psenthi3@asu.edu</a></em></small>
+  </footer>
+</body>
+</html>
